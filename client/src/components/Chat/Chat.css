@@ -1,0 +1,47 @@
+.chat-sidebar {
+    display: flex;
+}
+.channel {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.channel-list {
+    width: 30%;
+    border: 1px solid black;
+}
+.send-message {
+    position: absolute;
+    bottom: 10px;
+}
+.send-input {
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+}
+.send-button {
+    height: 30px;
+    border-radius: 10px;
+}
+.message {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+.back-to {
+    position: absolute;
+    right: 10px;
+}
+.messages {
+    overflow-y: scroll;
+    width:600px;
+    height: auto;
+}
+.message-poruka {
+    font-size: 18px;
+}
+.message-sender {
+    font-size: 10px;
+    color:cadetblue;
+}
